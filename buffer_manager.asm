@@ -16,7 +16,7 @@ syscall
 ; write the current time
 mov rax, 0x2000004
 mov rdi, rax
-lea rsi, [rel buffer]
+lea rsi, [rel buffer] 
 mov rdx, 0x1f ; size of buffer
 syscall
 
